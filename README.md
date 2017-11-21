@@ -20,3 +20,7 @@ This script automates a few steps such as:
  // 5 service to bounce     - apacheservicename  
  // 6 email for regist      - sslreg@yourdomain.com  
 ```
+# Example:
+ ```
+C# renew.cs "C:\apps\letsencrypt-win-simple\letsencrypt.exe" test.com C:\apache_apps\wwwroot.80 "C:\apps\WampServer\bin\apache\Apache2.2.21\conf\extra\httpd-ssl.conf" NOT-TEST wampapache    sslreg@test.com
+ ```
