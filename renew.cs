@@ -25,8 +25,8 @@ public class SSLRenew
 	// prereq - install letsencrypt-win-simple locally
     // cmd line example
     // pushd C:\apps\SSL-Renew-LetsEncrypt
-	//              PATH-TO-LETSENCRYPT                             SITE-HOSTNAME LOCAL_FOLDER_PATH         PATH-TO-SSL-CONFIG                                                     TEST?    SERVICE-NAME    
-	// C# renew.cs "C:\apps\letsencrypt-win-simple\letsencrypt.exe" craigliz.com  C:\apache_apps\wwwroot.80 "C:\apps\WampServer\bin\apache\Apache2.2.21\conf\extra\httpd-ssl.conf" NOT-TEST wampapache
+	//              PATH-TO-LETSENCRYPT                             SITE-HOSTNAME LOCAL_FOLDER_PATH         PATH-TO-SSL-CONFIG                                                     TEST?    SERVICE-NAME  EMAIL_REG
+	// C# renew.cs "C:\apps\letsencrypt-win-simple\letsencrypt.exe" test.com      C:\apache_apps\wwwroot.80 "C:\apps\WampServer\bin\apache\Apache2.2.21\conf\extra\httpd-ssl.conf" NOT-TEST wampapache    sslreg@test.com
 
 
 	static void Main(string[] args)
