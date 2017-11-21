@@ -11,6 +11,7 @@ This script automates a few steps such as:
  To just download the files into a folder and execute the script passing the 7 arguments:
  
  Arguments:  
+ ```
  // 0 path to letsencrypt   - "C:\apps\letsencrypt-win-simple\letsencrypt.exe"  
  // 1 domain to gen SSL For - yourdomain.com  
  // 2 webroot for domain    - C:\apache_apps\wwwroot.80  
@@ -18,5 +19,4 @@ This script automates a few steps such as:
  // 4 do it for real        - TEST | NOT-TEST  
  // 5 service to bounce     - apacheservicename  
  // 6 email for regist      - sslreg@yourdomain.com  
- 
- 
+```
