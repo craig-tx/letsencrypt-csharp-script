@@ -2,13 +2,13 @@
 A C# script to automate Lets Encrypt certificate renewal for a Windows Apache installation.
 
 This script automates a few steps such as:
- 1) Archiving old SSL data files
+ 1) Archiving old SSL cert files
  2) Executing the Lets Encrypt program to request new certificate info
  3) Copying the new certificate files to the Apache config folder
  4) Updating the Apache config files to point to the new files
  5) Bouncing the Apache service so the new cert files are in action
  
- To just download the files into a folder and execute the script passing the 7 arguments:
+ To run this just download the files into a folder and execute the script passing the 7 arguments. You could schedule this for each domain when it gets close to cert expiration but you will need to make sure the website can be accessed on port 80 for the renewal process. I have several sites running at home on alternate ports, so I have to tweak my port forwards so each site is temporarily accessible on port 80 while I run the script. For more info on that see: https://community.letsencrypt.org/t/support-for-ports-other-than-80-and-443/3419/100
  
  Arguments:  
  ```
